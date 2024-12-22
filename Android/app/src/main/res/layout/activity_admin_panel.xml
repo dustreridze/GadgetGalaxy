@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Создание продукта"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextCreateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название" />
+
+        <EditText
+            android:id="@+id/editTextCreatePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Цена"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextCreateImageUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL изображения" />
+
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Создать продукт"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="95dp"
+            android:backgroundTint="#108094"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Изменение продукта"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextUpdateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID продукта" />
+
+        <EditText
+            android:id="@+id/editTextUpdateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название" />
+
+        <EditText
+            android:id="@+id/editTextUpdatePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Цена"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextUpdateImageUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL изображения" />
+
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="95dp"
+            android:text="Изменить данные"
+            android:backgroundTint="#108094"/>
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="Выйти"
+            android:backgroundTint="#108094"/>
+    </LinearLayout>
+</ScrollView>
